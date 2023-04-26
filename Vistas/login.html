@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Css/registro.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Iniciar sesión</h1>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="nombreUsuario">Usuario</label>
+                <input type="text" class="form-control" id="nombreUsuario" required>
+            </div>
+            <div class="form-group">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" class="form-control" id="contraseña" required>
+            </div>
+            <p>¿No tienes cuenta? <a href="/Vistas/registro.html">Regístrate</a></p>
+            <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+        </form>
+    </div>
+    <script src="/JS/login.js"></script>
+</body>
+</html>
